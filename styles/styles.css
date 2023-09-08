@@ -4,7 +4,6 @@
 
 html {
     font-size: 16px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body {
@@ -13,6 +12,9 @@ body {
     min-height: 100vh;
     margin: 0;
     position: relative;
+    font-family: 'DynaPuff', cursive;
+    background: radial-gradient(#476c9b, #9eb7e5);
+    color: white;
 }
 
 main{
@@ -20,7 +22,48 @@ main{
     z-index: 1;
 }
 
-.wrapper{
-    max-width: 65ch;
-    margin: 0 auto;
+.container{
+    background-image: url("https://wallpapers.com/images/hd/studio-ghibli-scenery-howl-and-sophie-tk431y52x8ru762g.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;  
+    background-size: cover;
+    border-radius: 25px;
+    width: 100vw;
+    height: 30%;
+    padding: 10px;
+    margin: 15px;
+}
+
+h1{
+    font-family: 'Darumadrop One', cursive;
+    font-size: 100px;
+    line-height: 100px;
+    padding-left: 10px;
+}
+
+.subtitle{
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+
+.flower{
+    color: white;
+    position: fixed;
+    align-self: right;
+    top: 40px;
+    left: 96%;
+    transition: transform 2s;
+}
+
+.flower:hover {
+    transform: scale(1.5);
+  }
+
+.bottom-left{
+    text-align: right;
+    padding-right: 10px;
+}
+
+h2{
+    font-family: 'Darumadrop One', cursive;
 }
