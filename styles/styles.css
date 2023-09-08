@@ -9,17 +9,14 @@ html {
 body {
     display: flex;
     flex-wrap: wrap;
-    min-height: 100vh;
+    justify-content: center;
+    min-width: auto;
+    /* min-height: 100vh; */
     margin: 0;
     position: relative;
     font-family: 'DynaPuff', cursive;
     background: radial-gradient(#476c9b, #9eb7e5);
     color: white;
-}
-
-main{
-    width: 100%;
-    z-index: 1;
 }
 
 .container{
@@ -66,4 +63,78 @@ h1{
 
 h2{
     font-family: 'Darumadrop One', cursive;
+    font-size: 35px;
+}
+
+.whatIs{
+    background: linear-gradient(#ead2ac, #f1dac4);
+    color: #476c9b;
+    border-radius: 25px;
+    width: 45%;
+    height: 450px;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.link {
+    color: #476c9b;
+  }
+
+.films{
+    text-align: center;
+}
+
+.titles{
+    line-height: 25px;
+    width: 45%;
+    text-align: right;
+}
+
+.container2{
+    background-image: url("https://static.wikia.nocookie.net/studio-ghibli/images/b/b8/Spirited_Sea.png/revision/latest?cb=20210613010930"); 
+    background-repeat: no-repeat;
+    background-position: center;  
+    background-size: cover;
+    border-radius: 25px;
+    width: 100vw;
+    height: 500px;
+    padding: 10px;
+    margin: 40px;
+}
+
+.collections{
+    text-align: center;
+    font-family: 'Darumadrop One', cursive;
+    font-size: 50px;
+    padding-top: 150px;
+    padding-bottom: 0px;
+}
+
+.disclaimer{
+    text-align: center;
+    padding: none;
+
+}
+
+.container2:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+}
+
+.line{
+    line-height: 10%;
+}
+
+.featured{
+    text-align: center;
+}
+
+.list{
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 5px;
 }
