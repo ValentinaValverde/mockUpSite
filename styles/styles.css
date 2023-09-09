@@ -19,10 +19,10 @@ body {
     color: white;
 }
 
-.container{
-    background-image: url("https://wallpapers.com/images/hd/studio-ghibli-scenery-howl-and-sophie-tk431y52x8ru762g.jpg"); 
+.container {
+    background-image: url("https://wallpapers.com/images/hd/studio-ghibli-scenery-howl-and-sophie-tk431y52x8ru762g.jpg");
     background-repeat: no-repeat;
-    background-position: center;  
+    background-position: center;
     background-size: cover;
     border-radius: 25px;
     width: 100vw;
@@ -31,19 +31,19 @@ body {
     margin: 15px;
 }
 
-h1{
+h1 {
     font-family: 'Darumadrop One', cursive;
     font-size: 100px;
     line-height: 100px;
     padding-left: 10px;
 }
 
-.subtitle{
+.subtitle {
     font-size: 1.5rem;
     padding-left: 10px;
 }
 
-.flower{
+.flower {
     color: white;
     position: fixed;
     align-self: right;
@@ -54,19 +54,19 @@ h1{
 
 .flower:hover {
     transform: scale(1.5);
-  }
+}
 
-.bottom-left{
+.bottom-left {
     text-align: right;
     padding-right: 10px;
 }
 
-h2{
+h2 {
     font-family: 'Darumadrop One', cursive;
     font-size: 35px;
 }
 
-.whatIs{
+.whatIs {
     background: linear-gradient(#ead2ac, #f1dac4);
     color: #476c9b;
     border-radius: 25px;
@@ -80,22 +80,22 @@ h2{
 
 .link {
     color: #476c9b;
-  }
+}
 
-.films{
+.films {
     text-align: center;
 }
 
-.titles{
+.titles {
     line-height: 25px;
     width: 45%;
     text-align: right;
 }
 
-.container2{
-    background-image: url("https://static.wikia.nocookie.net/studio-ghibli/images/b/b8/Spirited_Sea.png/revision/latest?cb=20210613010930"); 
+.container2 {
+    background-image: url("https://static.wikia.nocookie.net/studio-ghibli/images/b/b8/Spirited_Sea.png/revision/latest?cb=20210613010930");
     background-repeat: no-repeat;
-    background-position: center;  
+    background-position: center;
     background-size: cover;
     border-radius: 25px;
     width: 100vw;
@@ -104,7 +104,7 @@ h2{
     margin: 40px;
 }
 
-.collections{
+.collections {
     text-align: center;
     font-family: 'Darumadrop One', cursive;
     font-size: 50px;
@@ -112,29 +112,292 @@ h2{
     padding-bottom: 0px;
 }
 
-.disclaimer{
+.disclaimer {
     text-align: center;
     padding: none;
 
 }
 
-.container2:hover{
+.container2:hover {
     cursor: pointer;
     filter: brightness(70%);
 }
 
-.line{
+.line {
     line-height: 10%;
 }
 
-.featured{
-    text-align: center;
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0px;
 }
 
-.list{
+.images{
+    font-size: 50px;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: none;
+    color: white;
+    font-family: 'Darumadrop One', cursive;
+
+}
+
+.images:hover {
+    cursor: pointer;
+    filter: brightness(70%);
+}
+
+
+.img01 {
+    background-image: url("https://m.media-amazon.com/images/M/MV5BZDA3NzExN2MtZWQ5Ni00YzUyLWFmM2YtZDFhZWE5OWZhZjc3XkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.img02 {
+    background-image: url("https://q9c3t4p4.rocketcdn.me/wp-content/uploads/2016/05/vague-visages-studio-ghbili-laputa-castle-in-the-sky-three.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.img03 {
+    background-image: url("https://www.ghibli.jp/gallery/totoro041.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.img04 {
+    background-image: url("https://jotaku.net/wp-content/uploads/2020/08/dvd-talk.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.img05 {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/566/830/464/mansions-landscape-house-castle-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.img06 {
+    background-image: url("https://i.pinimg.com/originals/5b/e3/e2/5be3e27e928883a719a3bab19600f715.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.img07 {
+    background-image: url("https://pbs.twimg.com/media/E5JE9iUXIAktDZg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.img08 {
+    background-image: url("https://filmdaze.net/wp-content/uploads/2020/07/9e68bb4a1955557d9803976bfab67c2d.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.img09 {
+    background-image: url("https://reedart.files.wordpress.com/2015/03/cat-4.jpg?w=950");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.img10 {
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/767234733289723131/14BEE73830D747DF0DC4FE69D4A540BECFA8C526/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.img11 {
+    background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/ponyo-island-clouds-and-greenery-ghibli-landscape-jhans-butterblumenhaus.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.img12 {
+    background-image: url("https://i.ytimg.com/vi/4QpH8u7bKHI/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.img13 {
+    background-image: url("https://pbs.twimg.com/media/FQQQ39UX0A0UqVo?format=jpg&name=large");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.img14 {
+    background-image: url("https://projectedrealities.files.wordpress.com/2014/05/7uwcrksh.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.img15 {
+    background-image: url("https://www.skwigly.co.uk/wp-content/uploads/2016/05/when-marnie-was-there-oscar-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    margin: 10px;
+    text-align: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.featured {
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    flex-wrap: nowrap;
+}
+
+.list {
     line-height: 30px;
     text-align: center;
     color: white;
     text-decoration: none;
     letter-spacing: 5px;
+}
+
+.footer{
+    background: #476c9b;
+    color:#9eb7e5;
+    bottom: 0;
+    width: 100vw;
+    height: 50px;
+    padding: 20px;
+    margin: none;
+    text-align: right;
 }
